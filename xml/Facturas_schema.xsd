@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="FacturaServicios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Factura" minOccurs="10" maxOccurs="15"/>
+      </xs:sequence>
+      <xs:attribute name="Direccion" type="xs:string" use="required"/>
+      <xs:attribute name="NIT" type="xs:string" use="required"/>
+      <xs:attribute name="RepLegal" type="xs:string" use="required"/>
+      <xs:attribute name="Rut" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id_factura" type="xs:string"/>
+        <xs:element ref="cliente"/>
+        <xs:element name="fecha_contrato" type="xs:date"/>
+        <xs:element ref="servicio_prestado"/>
+        <xs:element name="deducciones" type="xs:double"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="id" type="xs:string"/>
+        <xs:element name="personeria_juridica" type="xs:string"/>
+        <xs:element name="telefono" type="xs:string"/>
+        <xs:element name="direccion" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="servicio_prestado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tipo" type="xs:string"/>
+        <xs:element name="tiempo_contratado" type="xs:string"/>
+        <xs:element name="honorarios" type="xs:string"/>
+        <xs:element name="fecha_inicio" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

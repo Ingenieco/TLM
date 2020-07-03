@@ -1,0 +1,269 @@
+
+/* .x son tipo class. class="xxx"
+	#xxxxx son tipo identificador. #abcd ---> id="xxx"
+	
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+hr { 
+		display: block;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: inset;
+		border-width: 1px;
+} 
+		
+		
+a	{
+	color:white; 
+	font-family:helvetica;
+		
+}
+		
+.body	{
+	background-color:rgb(129, 2, 0);
+}
+		
+.divmenu	{
+	background-color:rgb(98, 2, 0);
+	color:white;
+	padding:0.2%;
+	border-bottom: 2px solid #999999;
+}
+			
+.pmenu	{
+	text-align:center;
+	color:white;
+		
+}
+		
+.franja	{
+	background-color:rgb(129, 2, 0);
+	color:white;
+	padding:0.2%;
+}
+		
+		
+#divimg	{
+	color:white;
+	padding:0%;
+	height:100%;
+	width:60%;
+	float:left;
+	margin-right:0%;
+	clear:both;
+	
+}
+		
+.divRecorridoT	{
+		
+	color:white;
+}
+
+.pRecorridoT	{
+	float:left;
+	text-align:justify;
+	color:white;
+	font-family:helvetica;
+	font-size:100%;
+		
+}
+
+.pmapa	{
+	float:left;
+	text-align:justify;
+	color:white;
+	font-family:helvetica;
+	font-size:79%;
+		
+}
+
+#divDescripcion	{
+	color:white;
+	padding:0.5%;
+	height:100%;
+	width:35%;
+	float:right;
+	/*background-color:rgb(98, 2, 0);*/
+	margin-top:0%;
+	margin-left:5%;
+	/*border-style:double;*/
+	
+	
+}
+	
+#AInteres	{
+	color:white;
+	padding:0%;
+	height:100%;
+	width:58%;
+	float:right;
+	margin-left:0%;
+	clear:both;
+}
+	
+#DescripAI	{
+	color:white;
+	padding:0.5%;
+	height:100%;
+	width:40%;
+	float:left;
+	background-color:rgb(98, 2, 0);
+	margin-top:0%;
+	margin-left:0%;
+	margin-right:0.5%;
+	border-style:double;
+}
+
+h1	{
+	font-family:helvetica;
+	text-align:center;
+	color:white;
+	font-size:100%;
+}
+
+.mapadinamico	{
+	width:100%;
+	height:100%;
+	float:right;
+	background-color:black;
+	color:white;
+	padding:0%;
+	margin-right:0%;
+	clear:both;
+	width:550px;
+	height:380px
+}
+
+#descripMapaDinamico	{
+	color:white;
+	padding:0.5%;
+	height:100%;
+	width:50%;
+	float:left;
+	background-color:rgb(98, 2, 0);
+	margin-top:0%;
+	margin-left:0%;
+	border-style:double;
+}
+
+section	{
+	color:white;
+	padding:0%;
+	height:100%;
+	width:100%;
+	clear:left;
+	/*display: flex;*/
+	flex-wrap:nowrap;
+	margin-bottom:5%;
+	
+}
+
+.divstyle{
+	background-color:rgb(98, 2, 0);
+	color:white; 
+	height:100%; 
+	padding:2%; 
+	width:46%;
+	float:left;
+	/*clear:both;*/
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:3%;
+	text-align:center;
+}
+
+h3	{
+	text-align:center;
+	font-family:helvetica;
+	border-bottom: 2px solid #999999;
+}
+h4	{
+	text-align:left;
+	font-family:helvetica;
+}
+
+ul	{
+	list-style-type:none;
+	font-family:verdana; 
+	font-size:80%;
+	text-align:left;
+}
+
+.textperfil	{
+	text-align:justify; 
+	font-family:verdana;
+}
+
+.ul-formacionc	{
+	list-style-type:circle;
+	font-family:verdana; 
+	font-size:80%;
+	text-align:left;
+}
+
+.licontacto	{
+	color:white;
+	font-family:helvetica;
+}
+
+.imgperfil	{
+	height:15%;
+	width:15%;
+	border-style:double;
+}
+
+.divstyleServ{
+	background-color:rgb(98, 2, 0);
+	color:white; 
+	height:100%; 
+	padding:2%; 
+	width:46%;
+	float:left;
+	/*clear:both;*/
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:3%;
+	text-align:center;
+	border-style:solid;
+	border-color:#999999;
+}
+
+.imgOT	{
+	width:95%;
+	height:95%;
+}
+
+
+.inicio	{
+	margin-top:1%;
+	text-align:center;
+}
+
+
+.divinicio	{
+	/*background-color:rgb(98, 2, 0);*/
+	color:white; 
+	height:100%; 
+	padding:0.5%; 
+	width:90%;
+	float:left;
+	/*clear:both;*/
+	margin-left:2%;
+	margin-right:1%;
+	margin-top:2%;
+	text-align:center;
+	/*border-style:solid;
+	border-color:#999999;*/
+}
+
+.textinicio{
+	text-align:justify; 
+	font-family:verdana;
+	font-size:95%
+}

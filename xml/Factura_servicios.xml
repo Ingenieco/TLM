@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FacturaServicios NIT="9999" RepLegal="Carlos Gutiérrez" Direccion="Calle falsa 123" Rut="001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Facturas_schema.xsd">
+<Factura><!--Factrura1-->
+  <id_factura>003</id_factura>
+  <cliente>
+    <nombre>Diana Uribe</nombre>  
+    <id>10003</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>3222323</telefono>
+    <direccion>Calle 40</direccion>
+  </cliente>
+  <fecha_contrato>2019-03-02</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo Informático</tipo>
+    <tiempo_contratado>1200</tiempo_contratado>
+    <honorarios>7000000</honorarios>
+    <fecha_inicio>2019-03-02</fecha_inicio>
+  </servicio_prestado>
+  <deducciones >0.19</deducciones>
+</Factura>
+<Factura><!--Factrura2-->
+  <id_factura>002</id_factura>
+  <cliente>
+    <nombre>Jorge Orlando Melo</nombre>  
+    <id>10002</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>6262626</telefono>
+    <direccion>Calle Cierta 321</direccion>
+  </cliente>
+  <fecha_contrato>2019-03-20</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Consultoria</tipo>
+    <tiempo_contratado>320</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-03-21</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.04</deducciones>
+</Factura>
+<Factura><!--Factrura3-->
+  <id_factura>001</id_factura>
+  <cliente>
+    <nombre>Eduardo Lora</nombre>  
+    <id>10001</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>6261212</telefono>
+    <direccion>Calle falsa 123</direccion>
+  </cliente>
+  <fecha_contrato>2019-02-16</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Asesoria</tipo>
+    <tiempo_contratado>50</tiempo_contratado>
+    <honorarios>1000000</honorarios>
+    <fecha_inicio>2019-02-17</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura4-->
+  <id_factura>004</id_factura>
+  <cliente>
+    <nombre>Friedrich Nietzsche</nombre>  
+    <id>10004</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>2322658</telefono>
+    <direccion>Calle 80</direccion>
+  </cliente>
+  <fecha_contrato>2019-05-16</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Asesoria</tipo>
+    <tiempo_contratado>1200</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-05-17</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura5-->
+  <id_factura>005</id_factura>
+  <cliente>
+    <nombre>Walter Montenegro</nombre>  
+    <id>10005</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>5698789</telefono>
+    <direccion>Calle 100</direccion>
+  </cliente>
+  <fecha_contrato>2019-06-29</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>1000</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-06-30</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura6-->
+  <id_factura>006</id_factura>
+  <cliente>
+    <nombre>Antonio Caballero</nombre>  
+    <id>10006</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>5698789</telefono>
+    <direccion>Calle 26</direccion>
+  </cliente>
+  <fecha_contrato>2019-07-29</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>1000</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-07-30</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura7-->
+  <id_factura>007</id_factura>
+  <cliente>
+    <nombre>Salomon Kalmanovitz</nombre>  
+    <id>10007</id>
+    <personeria_juridica>Natural</personeria_juridica>
+    <telefono>5698789</telefono>
+    <direccion>Calle 100</direccion>
+  </cliente>
+  <fecha_contrato>2019-06-29</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>1000</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-06-30</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura8-->
+  <id_factura>009</id_factura>
+  <cliente>
+    <nombre>Olver Blanchard</nombre>  
+    <id>10009</id>
+    <personeria_juridica>Juridica</personeria_juridica>
+    <telefono>3541252</telefono>
+    <direccion>Calle 45</direccion>
+  </cliente>
+  <fecha_contrato>2019-09-09</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>600</tiempo_contratado>
+    <honorarios>2900000</honorarios>
+    <fecha_inicio>2019-09-10</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura9-->
+  <id_factura>010</id_factura>
+  <cliente>
+    <nombre>Thomas Piketty</nombre>  
+    <id>10010</id>
+    <personeria_juridica>Juridica</personeria_juridica>
+    <telefono>6262626</telefono>
+    <direccion>Calle 100</direccion>
+  </cliente>
+  <fecha_contrato>2019-10-10</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>1000</tiempo_contratado>
+    <honorarios>5000000</honorarios>
+    <fecha_inicio>2019-10-10</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>0.19</deducciones>
+</Factura>
+<Factura><!--Factrura10-->
+  <id_factura>008</id_factura>
+  <cliente>
+    <nombre>Mario Mendoza</nombre>  
+    <id>10008</id>
+    <personeria_juridica>Juridica</personeria_juridica>
+    <telefono>5698789</telefono>
+    <direccion>Calle 100</direccion>
+  </cliente>
+  <fecha_contrato>2019-08-08</fecha_contrato>
+  <servicio_prestado>
+    <tipo>Desarrollo SIG</tipo>
+    <tiempo_contratado>500</tiempo_contratado>
+    <honorarios>2600000</honorarios>
+    <fecha_inicio>2019-08-08</fecha_inicio>
+  </servicio_prestado>
+  <deducciones>3</deducciones>
+</Factura>
+</FacturaServicios>

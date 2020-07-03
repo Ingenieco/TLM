@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<eventovial>
+  <evento>
+    <ID_Evento>111</ID_Evento>
+    <Tipo>Manifestacion</Tipo>
+    <nomenclatura>CRA 7</nomenclatura>
+    <nomvia>Avenida éptima</nomvia>
+    <sentidocarril>N-S</sentidocarril>
+    <cortevia>carril derecho</cortevia>
+    <fecha>
+      <dia>16</dia>
+      <mes>03</mes>
+      <año>19</año>
+      <horamilitar>16</horamilitar>
+    </fecha>
+  </evento>
+   <evento>
+    <ID_Evento>112</ID_Evento>
+    <Tipo>Inundación</Tipo>
+    <nomenclatura>CALLE 80</nomenclatura>
+    <nomvia>Autopista Medellín</nomvia>
+    <sentidocarril>E-W</sentidocarril>
+    <cortevia>carril central</cortevia>
+    <fecha>
+      <dia>1</dia>
+      <mes>1</mes>
+      <año>19</año>
+      <horamilitar>12</horamilitar>
+    </fecha>
+   </evento>
+   <evento>
+    <ID_Evento>113</ID_Evento>
+    <Tipo>Accidente</Tipo>
+    <nomenclatura>CRA 30</nomenclatura>
+    <nomvia>Avenida NQS</nomvia>
+    <sentidocarril>N-S</sentidocarril>
+    <cortevia>carril izquierdo</cortevia>
+    <fecha>
+      <dia>10</dia>
+      <mes>10</mes>
+      <año>19</año>
+      <horamilitar>10</horamilitar>
+    </fecha>
+  </evento>
+    <evento>
+    <ID_Evento>114</ID_Evento>
+    <Tipo>Reparaciones</Tipo>
+    <nomenclatura>CARRERA 45</nomenclatura>
+    <nomvia>Autopista Norte</nomvia>
+    <sentidocarril>N-S</sentidocarril>
+    <cortevia>Todos los carriles</cortevia>
+    <fecha>
+      <dia>8</dia>
+      <mes>8</mes>
+      <año>19</año>
+      <horamilitar>8</horamilitar>
+    </fecha>
+  </evento>
+  <evento>
+    <ID_Evento>115</ID_Evento>
+    <Tipo>Semaforizacion</Tipo>
+    <nomenclatura>CALLE 76</nomenclatura>
+    <nomvia>Avenida Boyacá</nomvia>
+    <sentidocarril>N-S</sentidocarril>
+    <cortevia>Carril derecho</cortevia>
+    <fecha>
+      <dia>7</dia>
+      <mes>7</mes>
+      <año>19</año>
+      <horamilitar>7</horamilitar>
+    </fecha>
+  </evento>
+</eventovial>
